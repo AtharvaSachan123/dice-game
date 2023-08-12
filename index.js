@@ -19,3 +19,8 @@ else if(randomnumber1===randomnumber2)
 {
 document.querySelector("h1").innerHTML="Draw,Try again";
 }
+var refreshpage=document.querySelector("button");
+refreshpage.addEventListener('click', function() {
+    
+    location.reload();
+  });
