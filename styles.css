@@ -31,4 +31,29 @@ p {
 img {
   width: 80%;
 }
+.btn {
+  padding: 10px 20px;
+  background-color: goldenrod;
+  color:white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-family:  cursive; 
+}
+.conti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
 
+
+.btn:hover {
+  background-color: #aaa;
+  color: black;
+}
+
+ .btn:active {
+  background-color: lightblue;
+  color: black;}
